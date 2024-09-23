@@ -67,8 +67,8 @@ else:
         }
 
     if __name__ == "__main__":
-        min_steps = 50000
-        max_steps = 80000
+        min_steps = 49900
+        max_steps = 49999
 
         for account, password in account_password_pairs:
             result = modify_steps(account, password, min_steps, max_steps)
